@@ -2,8 +2,11 @@ import React from 'react';
 
 const UserCard = (props) => {
  return (
-  <div>
-   {props.userData.login}
+  <div className="user-card">
+   <p>Name {props.userData.login}</p>
+   <p>id {props.userData.id}</p>
+   <p> url {props.userData.url}</p>
+   <p>repos {props.userData.repos_url}</p>
   </div>
  );
 };

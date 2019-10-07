@@ -20,3 +20,8 @@
 .App-link {
   color: #09d3ac;
 }
+.user-card{
+  margin:50px;
+  padding:10px;
+  font-size:1.2rem;
+background:lightgrey;}
